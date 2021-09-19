@@ -103,7 +103,7 @@ type SyncKey struct {
 	List  []struct{ Key, Val int64 }
 }
 
-// WebInitResponse 初始化的相应信息
+// WebInitResponse 初始化的响应信息
 type WebInitResponse struct {
 	Count               int
 	ClientVersion       int
